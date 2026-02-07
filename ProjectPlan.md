@@ -1,28 +1,28 @@
-# Project Plan: Face Recognition Web Dashboard
+# 프로젝트 계획: 얼굴 인식 웹 대시보드
 
-This project aims to build a face recognition system integrating machine learning models with a web-based dashboard.
+이 프로젝트는 머신러닝 모델과 웹 기반 대시보드를 통합하여 얼굴 인식 시스템을 구축하는 것을 목표로 합니다.
 
-## Milestones & Tasks
+## 마일스톤 및 작업 목록
 
-### Milestone 1: Project Setup & Research
-- [ ] Initialize project structure (Done)
-- [ ] Set up GitHub repository (Done)
-- [ ] Research suitable Hugging Face models for face detection & recognition
-- [ ] Set up Python virtual environment and install dependencies
+### 마일스톤 1: 프로젝트 설정 및 조사
+- [x] 프로젝트 구조 초기화 (완료)
+- [x] GitHub 저장소 생성 (완료)
+- [ ] 얼굴 탐지 및 인식을 위한 적절한 Hugging Face 모델 조사
+- [ ] Python 가상 환경 설정 및 필요 라이브러리 설치
 
-### Milestone 2: Core ML Implementation
-- [ ] Implement camera feed capture using OpenCV
-- [ ] Integrate Hugging Face model for face detection
-- [ ] Implement face recognition logic
-- [ ] Test ML model performance with sample data
+### 마일스톤 2: 핵심 ML 기능 구현
+- [ ] OpenCV를 이용한 카메라 영상 캡처 구현
+- [ ] Hugging Face 모델 연동하여 얼굴 탐지 기능 구현
+- [ ] 얼굴 인식 로직 구현
+- [ ] 샘플 데이터를 이용한 ML 모델 성능 테스트
 
-### Milestone 3: Web Dashboard Development
-- [ ] Design simple dashboard layout
-- [ ] Implement backend API (Flask/FastAPI) to serve video feed
-- [ ] Create frontend to display real-time video and recognition results
-- [ ] Add controls to start/stop recognition
+### 마일스톤 3: 웹 대시보드 개발
+- [ ] 대시보드 레이아웃 설계
+- [ ] 영상 스트리밍을 위한 백엔드 API 구현 (Flask 또는 FastAPI)
+- [ ] 실시간 영상 및 인식 결과를 보여줄 프론트엔드 개발
+- [ ] 인식 시작/중지 제어 기능 추가
 
-### Milestone 4: Deployment & Documentation
-- [ ] Write detailed documentation (README.md)
-- [ ] Create simple deployment guide
-- [ ] Final testing and bug fixes
+### 마일스톤 4: 배포 및 문서화
+- [ ] 상세 문서 작성 (README.md 업데이트)
+- [ ] 간단한 배포 가이드 작성
+- [ ] 최종 테스트 및 버그 수정
