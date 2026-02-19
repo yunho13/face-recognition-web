@@ -13,3 +13,38 @@
    - Windows: `venv\Scripts\activate`
    - Mac/Linux: `source venv/bin/activate`
 3. 의존성 설치: `pip install -r requirements.txt`
+
+## 실행 방법 (Run)
+
+### Backend (API Server)
+FastAPI 기반의 백엔드 서버를 실행합니다.
+
+1. `src/ml` 디렉토리로 이동:
+   ```bash
+   cd src/ml
+   ```
+2. 서버 실행:
+   ```bash
+   python main.py
+   # 또는
+   uvicorn main:app --reload
+   ```
+- 서버는 `http://localhost:8000`에서 실행됩니다.
+- API 문서(Swagger UI)는 `http://localhost:8000/docs`에서 확인할 수 있습니다.
+
+### Frontend (Web Dashboard)
+React + Vite 기반의 웹 대시보드를 실행합니다.
+
+1. `src/web` 디렉토리로 이동:
+   ```bash
+   cd src/web
+   ```
+2. 패키지 설치 (최초 1회):
+   ```bash
+   npm install
+   ```
+3. 개발 서버 실행:
+   ```bash
+   npm run dev
+   ```
+- 웹 대시보드는 터미널에 표시된 주소(기본: `http://localhost:5173`)로 접속하여 확인할 수 있습니다.
